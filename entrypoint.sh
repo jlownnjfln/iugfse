@@ -10,8 +10,8 @@ NEZHA_PORT=
 NEZHA_KEY=
 
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，获取方式看 https://github.com/fscarmen2/X-for-Glitch，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-ARGO_AUTH='{"AccountTag":"2c029e9aa5a913046aac6e5634f47f60","TunnelSecret":"jcDXvcTR36S8oCUcCx5LYHD6JKqDpNew+n/ms7zeX70=","TunnelID":"e2423844-f7e8-40bb-881a-8dd1af66bf85"}'
-ARGO_DOMAIN=back1.breakee.ml
+ARGO_AUTH='{"AccountTag":"2c029e9aa5a913046aac6e5634f47f60","TunnelSecret":"plezPxMVoIAyrSHFhjLr8t3EFNy6AJC+05tdXfULNwY=","TunnelID":"7c8c75bf-00c0-4291-9473-2a810c205673"}'
+ARGO_DOMAIN=back2.breakee.tk
 
 generate_config() {
   cat > config.json << EOF
